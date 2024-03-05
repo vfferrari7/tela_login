@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body{
+    background-color: rgba(192, 93, 0, 0.377);
+    opacity: 0.5;
+}
+
+#titulo2, #titulo1{
+    margin: 0 auto;
+    gap: 2px;
+    line-height: 24px;
+    display: flex;
+}
+
+.entrar{
+    margin: 0 auto;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    background-color: #0068c9;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#maindiv{
+    width: 290px;
+    height:180px;
+    background: #ccc;
+    border: 1px solid #000;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    font-family:"Titillium Web", sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    box-shadow: 10px 10px;
+}
+
+#partedecima{
+    height: 25px;
+    width: 170px;
+}
+
+#partedebaixo{
+    height: 25px;
+    width: 170px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family:"Titillium Web", sans-serif;
+    font-weight: 700;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.section_email{
+    justify-content: center;
+}
+
+.section_senha{
+    justify-content: center;
+}
